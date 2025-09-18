@@ -1,0 +1,31 @@
+.profile-section {  
+  background-color: white;  
+  border-radius: 20px;  
+  padding: 20px;  
+  margin: 20px;  
+  text-align: center;  
+}  
+  
+.profile-pic {  
+  width: 80px;  
+  height: 80px;  
+  border-radius: 50%;  
+  margin-bottom: 10px;  
+}  
+  
+.stories {  
+  display: flex;  
+  justify-content: space-around;  
+  margin-top: 15px;  
+}  
+  
+.story-card {  
+  background-color: white;  
+  border: 1px solid #ccc;  
+  width: 90px;  
+  height: 120px;  
+  border-radius: 10px;  
+  padding: 5px;  
+  text-align: center;  
+}
+

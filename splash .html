@@ -1,0 +1,86 @@
+<!DOCTYPE html>  
+<html lang="fr">  
+<head>  
+  <meta charset="UTF-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+  <title>Instar-Uni - Splash</title>  
+  <style>  
+    body {  
+      margin: 0;  
+      background-color: #2e004f; /* Violet foncé */  
+      display: flex;  
+      flex-direction: column;  
+      justify-content: center;  
+      align-items: center;  
+      height: 100vh;  
+      color: white;  
+      font-family: Arial, sans-serif;  
+    }  
+  
+    .logo-img {  
+      width: 100px;  
+      height: 100px;  
+      margin-bottom: 20px;  
+    }  
+  
+    .logo-text {  
+      font-size: 32px;  
+      font-weight: bold;  
+      margin-bottom: 30px;  
+    }  
+  
+    .dots {  
+      display: flex;  
+      gap: 10px;  
+    }  
+  
+    .dot {  
+      width: 12px;  
+      height: 12px;  
+      background-color: white;  
+      border-radius: 50%;  
+      animation: bounce 1.5s infinite;  
+    }  
+  
+    .dot:nth-child(2) {  
+      animation-delay: 0.2s;  
+    }  
+  
+    .dot:nth-child(3) {  
+      animation-delay: 0.4s;  
+    }  
+  
+    @keyframes bounce {  
+      0%, 80%, 100% {  
+        transform: scale(0);  
+[17/09 13:09] ChatGPT: opacity: 0.5;  
+      }  
+      40% {  
+        transform: scale(1);  
+        opacity: 1;  
+      }  
+    }  
+  </style>  
+</head>  
+<body>  
+  <!-- Logo Image -->  
+  <img src="logo.png" alt="Logo Instar-Uni" class="logo-img" />  
+    
+  <!-- App Name -->  
+  <div class="logo-text">Instar-Uni</div>  
+    
+  <!-- Animated Dots -->  
+  <div class="dots">  
+    <div class="dot"></div>  
+    <div class="dot"></div>  
+    <div class="dot"></div>  
+  </div>  
+  
+  <script>  
+    // Redirection après 3 secondes  
+    setTimeout(() => {  
+      window.location.href = "home.html";  
+    }, 3000);  
+  </script>  
+</body>  
+</html>
